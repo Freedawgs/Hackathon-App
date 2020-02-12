@@ -1,0 +1,91 @@
+import React, { Component } from 'react';
+import { AppRegistry, Text, View, StyleSheet, Image, ImageBackground, TouchableHighlight } from 'react-native';
+import Constants from 'expo-constants';
+
+export default class App extends Component {
+    render() {
+        return (
+            <View style={styles.container}>
+                <View style={styles.bar}>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.white}>
+                    </View>
+                    <View style={styles.white}>
+                    </View>
+                    <View style={styles.white}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                </View>
+                <View style={styles.bar}>
+                    <View style={styles.white}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.white}>
+                    </View>
+                </View>
+                <View style={styles.bar}>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                </View>
+                <View style={styles.bar}>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.white}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.white}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                </View>
+                <View style={styles.bar}>
+                    <View style={styles.white}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.purple}>
+                    </View>
+                    <View style={styles.white}>
+                    </View>
+                </View>
+            </View>
+        );
+    }
+}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+    bar: {
+        flexDirection: 'row',
+    },
+    purple: {
+        backgroundColor: 'purple',
+        width: 50,
+        height: 50,
+    },
+    white: {
+        backgroundColor: 'white',
+        width: 50,
+        height: 50,
+    },
+});
